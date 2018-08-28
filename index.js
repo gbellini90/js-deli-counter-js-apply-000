@@ -1,8 +1,10 @@
  let num= 0
+ katzDeli=[]
 function takeANumber(katzDeli){
   num++
+  katzDeli.push(num)
   return (`You are number ${num} in line.`);
-  katzDeli.push()
+
 }
 
 
@@ -10,7 +12,7 @@ function takeANumber(katzDeli){
 function nowServing(katzDeli){
 if (katzDeli.length === 0){
   return 'There is nobody waiting to be served!'}
-  else {var name=katzDeli[0]
+  else {var num=katzDeli[0]
    katzDeli.splice(0,1)
   return (`Currently serving ${name}.`)
  
