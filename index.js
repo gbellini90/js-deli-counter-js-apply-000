@@ -1,6 +1,7 @@
-function takeANumber(katzDeli, number){
-  katzDeli.push(number)
-  return (`You are number ${katzDeli.length} in line.`);
+function takeANumber(katzDeli){
+  let num= 0
+  num++
+  return (`You are number ${number} in line.`);
 }
 
 
