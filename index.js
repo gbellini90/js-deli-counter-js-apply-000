@@ -1,5 +1,5 @@
+ let num= 0
 function takeANumber(katzDeli){
-  let num= 0
   num++
   return (`You are number ${number} in line.`);
 }
