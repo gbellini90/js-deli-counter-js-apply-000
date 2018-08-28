@@ -2,6 +2,7 @@
 function takeANumber(katzDeli){
   num++
   return (`You are number ${num} in line.`);
+  katzDeli.push()
 }
 
 
